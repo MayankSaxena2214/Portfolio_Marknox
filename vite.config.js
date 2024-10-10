@@ -1,7 +1,9 @@
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react-swc'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio_Marknox/', // Add this line for GitHub Pages
+  // Remove this for local development
+  // base: '/Portfolio_Marknox/',
 })
