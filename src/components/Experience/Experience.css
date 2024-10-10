@@ -1,0 +1,9 @@
+.experience-container{
+    background-color: black;
+    h1{
+        font-size: 48px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:white;
+    }
+}

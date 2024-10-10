@@ -1,0 +1,11 @@
+.education-container{
+    min-height: 70vh;
+    background-color: rgba(0, 0, 0, 0.804);
+
+    h1{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        color:white;
+    }
+}

@@ -1,0 +1,132 @@
+.skills-container{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    h1{
+        font-size: 40px;
+        align-items: center;
+        color:white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .skill-icons{
+        display: flex;
+        
+        flex-direction: column;
+        gap:100px;
+        width: 100vw;
+        justify-content: space-evenly;
+        /* margin-top: 65px; */
+        align-items: center;
+        /* background-color: red; */
+        
+    }
+}
+.check{
+    color: white;;
+}
+.skill-icon{
+    height: 60px;
+    width: 60px;
+    color:white;
+    background-color: rgb(33, 33, 92);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+
+    &:hover{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        color:blue;
+    }
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 60px;
+
+    @media(max-width: 768px){
+        flex-direction: column;
+    }
+
+}
+.row-hold{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p{
+        font-size: 1.5rem;
+        color:white;
+    }
+}
+.html {
+    color: #e34c26; /* HTML color */
+  }
+  
+  .css {
+    color: #1572b6; /* CSS color */
+  }
+  
+  .javascript {
+    color: #f7df1e; /* JavaScript color */
+  }
+  
+  .nodejs {
+    color: #68a063; /* Node.js color */
+  }
+  
+  .cpp {
+    color: #00599c; /* C++ color */
+  }
+  
+  .express {
+    color: #000000; /* Express.js is usually associated with black */
+  }
+  
+  .mongodb {
+    color: #4db33d; /* MongoDB green */
+  }
+  
+  .mysql {
+    color: #00758f; /* MySQL color */
+  }
+  
+  .git {
+    color: #f05032; /* Git color */
+  }
+  
+  .github {
+    color: #333; /* GitHub uses black/dark gray */
+  }
+  
+  .react {
+    color: #61dafb; /* ReactJS color */
+  }
+  
+  .tailwind {
+    color: #38bdf8; /* Tailwind CSS color */
+  }
+  
+  .bootstrap {
+    color: #7952b3; /* Bootstrap purple */
+  }
+  
+  .python {
+    color: #306998; /* Python color */
+  }
+  
+  .java {
+    color: #007396; /* Java color */
+  }
+  
+  .database {
+    color: #f29111; /* General database color, can be customized */
+  }
